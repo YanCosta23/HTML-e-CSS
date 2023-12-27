@@ -34,8 +34,10 @@
     <h2>Texto subscrito</h2>
     <p>Para inserir coisas do tipo h<sub>2</sub>0</p>
 
-
-
+    <h1>Código Fonte</h1>
+    <p><code>O comando document.getElementByid('teste') é escrito em linguagem JavaScript</code></p>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
 
 
 </body>
