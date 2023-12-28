@@ -15,7 +15,7 @@
 </head>
 <body>
     <h1>Testando carga e imagens</h1>
-    <p>Abaixo você vai ver uma imagem que estpa na mesma pasta</p>
+    <p>Abaixo você vai ver uma imagem que está na mesma pasta</p>
     <img src="imagens/lemeforense.png" alt="Logo leme">
     <h2>Principais Formatações</h2>
     <p>Nesta frase, temos um <strong>Termo em destaque</strong>usando a tag Strong</p>
@@ -39,6 +39,84 @@
     <h2>Citações</h2>
     <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
 
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="I" >  <!-- 1  A  a I i-->
+        <li>Acordar
+        <li>Ligar para o João
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Ir para a faculdade
+        <li>Almoçar
+        <li>Ir para o trabalho
+        <li>Voltar para casa
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
 
+    <H2>Listas não Ordenadas</H2>
+    <ul type="square">  <!-- disc circle square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alfaçe</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+
+
+    </ul>
+    
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <H2>Meus jogos favoritos</H2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bross 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do contepudo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um sie.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a interatividade de um site.</dd>
+
+    </dl>
 </body>
 </html>
