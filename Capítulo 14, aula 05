@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Exemplo</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <main>
+        <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, vitae? Atque quos alias ab neque nemo delectus vero eaque, maiores nobis, deserunt mollitia iure quasi praesentium minima, aliquid quas eum! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas dicta dolorum est ea ipsam perspiciatis itaque dolores officiis velit. Doloribus quibusdam perspiciatis a ipsam, vel culpa quas magnam quam porro!</p>
+        <h2>Subtítulo de exercício</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, perspiciatis. Modi hic, accusamus tempore eveniet reiciendis obcaecati enim ipsam ea laborum blanditiis itaque! Blanditiis excepturi explicabo minus esse nihil commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit perferendis omnis, distinctio quam tempore cum nostrum exercitationem obcaecati! Fugiat quis quas impedit quae expedita iusto cumque, error officia veniam adipisci.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, temporibus, deserunt quae voluptas soluta quam sint consequatur ab repellat, neque dolorem tenetur atque sapiente deleniti inventore? Obcaecati nostrum explicabo pariatur?</p>
+        
+    </main>
+</body>
+</html> 
+
+CSS:
+@charset "UTF-8";
+
+* {
+    font-family:'Courier New';
+    font-size: 1em;
+    font-weight: 900;
+}
+
+body {
+    background-image: linear-gradient(to right, #43766C, #F8FAE5, #B19470, #76453B);
+}
+main {
+background-color: white;
+    border-radius: 10%;
+    box-shadow: 15px 15px 15px #3a260e59;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+h1 {
+    color: rgb(6, 141, 17);
+    text-align: center;
+    text-shadow: 2px 2px 2px #14693559;
+}
+
+h2{
+    color: rgba(6, 99, 37, 0.801);
+}
+}
+
+
+p {
+    text-align: justify;
+}
