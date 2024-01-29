@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Exemplo</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <main>
+        <h1>Site de Exemplo</h1>
+        <h2>Titílo 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sapiente consequatur molestiae esse numquam laboriosam hic facere, expedita quo sed. Animi earum totam error quae saepe quidem temporibus aperiam et!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, unde deserunt? Itaque placeat, totam iure temporibus ullam sint accusantium amet quae sit magnam quaerat nesciunt, incidunt tempore ipsum? Omnis, vel?</p>
+        <h2>Título 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At et a voluptatum totam ducimus ea, debitis reprehenderit minima. Voluptates minima magni nulla quaerat! Illum modi libero, dolorem totam odio repudiandae!/p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, architecto doloribus assumenda rerum harum commodi molestiae sequi enim animi voluptates? Error nihil explicabo a adipisci possimus impedit soluta ea aspernatur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, libero animi exercitationem et cupiditate excepturi, perspiciatis sunt repellendus ullam deleniti a, vel aperiam numquam eligendi nobis porro unde minus? Facilis.</p>
+        <h2>Título 3</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa temporibus adipisci doloribus. Incidunt enim quas cum molestiae a hic itaque quia. Soluta quo unde, hic alias quam iusto cum recusandae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi eum consequatur nostrum praesentium quod pariatur blanditiis aliquid provident sed. Sequi cum adipisci nobis facilis incidunt animi deleniti minus consequuntur ab?</p>
+    </main>
+</body>
+</html>
