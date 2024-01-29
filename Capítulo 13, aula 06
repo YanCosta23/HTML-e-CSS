@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+    <style>
+        * {
+            height: 100%;
+        }
+        body {
+            background-image: radial-gradient(circle, #3F0D94, #351C61, #A97AFA, #CDB0FF, #EDE3FF);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <!-- Representação por nomes-->
+    <h2 style= "color: white;">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore, a recusandae, et magnam aliquid error est reiciendis, sapiente eius tempora iusto? Similique dolor ad perspiciatis voluptates sit itaque temporibus!</p>
+
+    <!--Representação por códigos Hexadecimais-->
+    <!--Decimal:0 1 2 3 4 5 6 7 8 9-->
+    <!--Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F-->
+    <h2 style="color: #ffffff;">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore, a recusandae, et magnam aliquid error est reiciendis, sapiente eius tempora iusto? Similique dolor ad perspiciatis voluptates sit itaque temporibus!</p>
+   <!--Representação em RGB (Red, Green, Blue)-->
+    <h2 style="color:rgb(255 ,255,255);">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore, a recusandae, et magnam aliquid error est reiciendis, sapiente eius tempora iusto? Similique dolor ad perspiciatis voluptates sit itaque temporibus!</p>
+   <!--Representação por HSL (Hue, Saturation, Luminosity)-->
+    <h2 style="color:hsl(0, 0%, 100%);">Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore, a recusandae, et magnam aliquid error est reiciendis, sapiente eius tempora iusto? Similique dolor ad perspiciatis voluptates sit itaque temporibus!</p>
+    <h2>Exemplo de Cores</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis dolore, a recusandae, et magnam aliquid error est reiciendis, sapiente eius tempora iusto? Similique dolor ad perspiciatis voluptates sit itaque temporibus!</p>
+
+<H1>Testando Gradiente</H1>
+
+</body>
+</html>
