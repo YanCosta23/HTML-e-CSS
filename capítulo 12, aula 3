@@ -1,0 +1,72 @@
+Página 1:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Inline</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        h1 {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capítulo 1</h1>
+    <h2>Capítulo 1.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, voluptatem est perferendis, accusamus natus delectus iste sequi enim quam alias praesentium numquam obcaecati dolore eligendi provident aliquid ad! Voluptatum, quos?</p>
+    <h2>Capítulo 1.2</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta adipisci repellendus quo cumque. Magnam hic placeat libero quos cum voluptates aliquid! Doloribus sunt explicabo similique vel perferendis omnis enim! Ipsam?</p>
+    <h1>Capítulo 2</h1>
+    <h2>Capítulo 2.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat natus magnam, quaerat, non expedita quos obcaecati omnis modi mollitia architecto ipsum animi nulla hic, porro repellat quo! Natus, ipsum iure.</p>
+    <p style="text-align: right;"><a href="pagina02.html">Ir para a página</a></p>
+</body>
+</html>
+
+
+Págima 2:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda página</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1>Segunda página</h1>
+    <h2>Teste de estilos</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque nam odio, consequatur velit commodi quam magni, quaerat optio accusantium autem officiis modi! Quam dolorum aut in odit adipisci commodi eum?</p>
+    <p><a href="index.html">Voltar</a></p>
+</body>
+</html>
+
+
+
+
+
+
+Estilo CSS:
+@charset "UTF-8";
+
+body{
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color: darkblue;
+    background-color: lightblue;
+}
+
+h2 {
+    color: red;
+}
+
+p {
+    text-align: justify;
+}
+
