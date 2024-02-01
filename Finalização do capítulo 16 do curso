@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adorarte</title>
+    <link rel="stylesheet" href="style.css"></link>
+
+<body>
+    <header>
+        <h1>Adorarte</h1>
+        <Nav>
+            <a href="https://www.youtube.com/watch?v=VRs1CuoIYSs">Encenação de 2019</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+            <a href="Teste">Teste</a>
+        </Nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia ipsa quisquam ipsam, id porro doloremque voluptatibus odit voluptates iure eum voluptatem amet, debitis corrupti dolorem iusto. Quisquam iure aut sint.</p>
+                <aside>
+                    <p id="artigo">Artigo escrito por Yan Costa</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="nome">Desenvolvido por Yan Costa</p>
+    </footer>
+    <h1 id="borda">Borda personalizada</h1>
+
+
+
+
+
+
+</body>
+</html>
+
+
+CSS: 
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px  rgba(0, 0, 0, 0.637);
+
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
+
+#nome{
+    text-align: center;
+    font-size: 20px;
+    text-indent: 0px;
+}
+
+#artigo{
+    font-weight:bold ;
+    text-align: center;
+}
+
+article{
+    background-color: lightgray;
+}
+article > aside {
+    background-color: rgb(107, 107, 107);
+}
+nav{
+    background-color: black;
+    padding: 3px;
+
+}
+nav > a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: red;
+}
+#assuntos{
+    background-color: rgb(163, 161, 161);
+    color: blueviolet;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#borda{
+    border: 20px solid black;
+    padding: 10px;
+    border-image-source: url('borda.png');
+    border-image-slice: 27;
+    border-image-repeat: repeat;
+}
